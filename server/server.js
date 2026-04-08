@@ -6,7 +6,9 @@ const app = express();
 
 // ara katman
 app.use(cors({
-  origin: ['https://movix-six-vert.vercel.app', 'http://localhost:5173']
+  origin: ['https://movix-six-vert.vercel.app', 'http://localhost:5173'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 app.use(express.json());
 
