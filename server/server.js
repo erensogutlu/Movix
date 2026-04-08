@@ -5,7 +5,9 @@ require('dotenv').config();
 const app = express();
 
 // ara katman
-app.use(cors());
+app.use(cors({
+  origin: ['https://movix-six-vert.vercel.app', 'http://localhost:5173']
+}));
 app.use(express.json());
 
 // rotalar
