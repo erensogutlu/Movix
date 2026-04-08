@@ -25,6 +25,13 @@ Movix, izlediğin, yarım bıraktığın veya izlemek istediğin film ve diziler
 
 * Geliştirici : Eren Söğütlü
 
+* Admin Paneli Giriş Bilgileri : 
+
+ -> E-Posta: admin@movix.com
+ -> Şifre: MovixAdmin123!
+
+ ⚠️ Bu hesap yalnızca tanıtım amaçlıdır ve sıfırlanabilir veya kısıtlanabilir.
+
 -----------------------------------------------------------------------------------------------------------------
 
 /* Movix – Movie & TV Series Tracking Application */
@@ -40,19 +47,26 @@ Movix is a modern content tracking platform that allows you to manage the movies
 
 * Technologies Used : 
 
-Frontend : 
+    Frontend : 
 
- -> React.js 
- -> Vite 
- -> Tailwind CSS 
+  -> React.js 
+  -> Vite 
+  -> Tailwind CSS 
 
-Backend : 
+    Backend : 
 
- -> Node.js 
- -> Express.js 
- -> PostgreSQL
+  -> Node.js 
+  -> Express.js 
+  -> PostgreSQL
 
 * Developer : Eren Söğütlü
+
+* Admin Panel Login Information :
+
+ -> Email: admin@movix.com
+ -> Password: MovixAdmin123!
+
+ ⚠️ This account is for demonstration purposes only and may be reset or restricted.
 
 -----------------------------------------------------------------------------------------------------------------
 
