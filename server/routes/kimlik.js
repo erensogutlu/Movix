@@ -37,7 +37,7 @@ router.post('/kayit', async (req, res) => {
     });
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Sunucu hatası');
+    res.status(500).json({ error: 'Sunucu hatası', detay: err.message });
   }
 });
 
@@ -71,7 +71,7 @@ router.post('/giris', async (req, res) => {
     });
   } catch (err) {
     console.error(err.message);
-    res.status(500).send('Sunucu hatası');
+    res.status(500).json({ error: 'Sunucu hatası', detay: err.message });
   }
 });
 
